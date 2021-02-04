@@ -14,8 +14,9 @@ interface Style {
 
 export default StyleSheet.create<Style>({
   container: {
+    padding: 24,
     borderRadius: 20,
-    height: ScreenWidth * 0.45,
+    height: ScreenWidth * 0.48,
     width: ScreenWidth * 0.45,
     backgroundColor: "#FF6863",
   },

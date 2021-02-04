@@ -14,9 +14,47 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView
-        style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+        style={{
+          flex: 1,
+          alignItems: "center",
+          justifyContent: "space-evenly",
+        }}
       >
-        <ColorfulCard />
+        <View
+          style={{
+            width: "100%",
+            alignItems: "center",
+            flexDirection: "row",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <ColorfulCard />
+          <ColorfulCard />
+        </View>
+
+        <View
+          style={{
+            width: "100%",
+            alignItems: "center",
+            flexDirection: "row",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <ColorfulCard />
+          <ColorfulCard />
+        </View>
+
+        <View
+          style={{
+            width: "100%",
+            alignItems: "center",
+            flexDirection: "row",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <ColorfulCard />
+          <ColorfulCard />
+        </View>
       </SafeAreaView>
     </>
   );
