@@ -28,8 +28,9 @@ export default StyleSheet.create<Style>({
     backgroundColor: "#FF6863",
   },
   titleTextStyle: {
-    color: "rgba(255,255,255,0.7)",
+    fontSize: 15,
     fontWeight: "500",
+    color: "rgba(255,255,255,0.7)",
   },
   iconContainerStyle: {
     position: "absolute",
@@ -56,7 +57,7 @@ export default StyleSheet.create<Style>({
   },
   contentValueTextStyle: {
     color: "#fff",
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: "600",
   },
   contentPostfixTextStyle: {

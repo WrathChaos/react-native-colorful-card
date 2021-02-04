@@ -16,6 +16,11 @@ import styles from "./ColorfulCard.style";
 type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
 
 interface IColorfulCardProps {
+  title: string;
+  value: string;
+  valuePostfix?: string;
+  footerTitle: string;
+  footerValue: string;
   style?: CustomStyleProp;
   iconImageSource?: ImageSourcePropType;
   onPress: () => void;
@@ -23,12 +28,17 @@ interface IColorfulCardProps {
 
 const ColorfulCard: React.FC<IColorfulCardProps> = ({
   style,
+  title,
+  value,
+  valuePostfix,
   iconImageSource = require("./pulse.png"),
+  footerTitle,
+  footerValue,
   onPress,
 }) => {
   const renderTitle = () => (
     <View style={{}}>
-      <Text style={styles.titleTextStyle}>Heart Rate</Text>
+      <Text style={styles.titleTextStyle}>{title}</Text>
     </View>
   );
 
@@ -40,15 +50,17 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
 
   const renderContent = () => (
     <View style={styles.contentStyle}>
-      <Text style={styles.contentValueTextStyle}>124</Text>
-      <Text style={styles.contentPostfixTextStyle}>bpm</Text>
+      <Text style={styles.contentValueTextStyle}>
+        {`${value} `}
+        <Text style={styles.contentPostfixTextStyle}>{valuePostfix}</Text>
+      </Text>
     </View>
   );
 
   const renderFooter = () => (
     <View style={styles.footerContainerStyle}>
-      <Text style={styles.footerTextStyle}>80-120</Text>
-      <Text style={styles.footerTextStyle}>Healthy</Text>
+      <Text style={styles.footerTextStyle}>{footerTitle}</Text>
+      <Text style={styles.footerTextStyle}>{footerValue}</Text>
     </View>
   );
 

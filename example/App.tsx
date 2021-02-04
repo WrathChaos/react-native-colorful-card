@@ -28,8 +28,20 @@ const App = () => {
             justifyContent: "space-evenly",
           }}
         >
-          <ColorfulCard onPress={() => {}} />
           <ColorfulCard
+            title="Heart Rate"
+            value="126"
+            valuePostfix="bpm"
+            footerTitle="80-120"
+            footerValue="Healthy"
+            onPress={() => {}}
+          />
+          <ColorfulCard
+            title="Sleep"
+            value="8"
+            valuePostfix="h 42 m"
+            footerTitle="Deep Sleep"
+            footerValue="3h 13m"
             style={{ backgroundColor: "#7954ff" }}
             onPress={() => {}}
           />
