@@ -17,7 +17,7 @@ const App = () => {
         style={{
           flex: 1,
           alignItems: "center",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
         }}
       >
         <View
@@ -28,32 +28,49 @@ const App = () => {
             justifyContent: "space-evenly",
           }}
         >
-          <ColorfulCard />
-          <ColorfulCard />
+          <ColorfulCard onPress={() => {}} />
+          <ColorfulCard
+            style={{ backgroundColor: "#7954ff" }}
+            onPress={() => {}}
+          />
         </View>
 
         <View
           style={{
+            marginTop: 16,
             width: "100%",
             alignItems: "center",
             flexDirection: "row",
             justifyContent: "space-evenly",
           }}
         >
-          <ColorfulCard />
-          <ColorfulCard />
+          <ColorfulCard
+            style={{ backgroundColor: "#fe8f62" }}
+            onPress={() => {}}
+          />
+          <ColorfulCard
+            style={{ backgroundColor: "#2bc3ff" }}
+            onPress={() => {}}
+          />
         </View>
 
         <View
           style={{
+            marginTop: 16,
             width: "100%",
             alignItems: "center",
             flexDirection: "row",
             justifyContent: "space-evenly",
           }}
         >
-          <ColorfulCard />
-          <ColorfulCard />
+          <ColorfulCard
+            style={{ backgroundColor: "#5a65ff" }}
+            onPress={() => {}}
+          />
+          <ColorfulCard
+            style={{ backgroundColor: "#96da45" }}
+            onPress={() => {}}
+          />
         </View>
       </SafeAreaView>
     </>

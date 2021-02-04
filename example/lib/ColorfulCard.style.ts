@@ -10,6 +10,13 @@ const { width: ScreenWidth } = Dimensions.get("window");
 interface Style {
   container: ViewStyle;
   titleTextStyle: TextStyle;
+  iconContainerStyle: ViewStyle;
+  iconImageStyle: ImageStyle;
+  contentStyle: ViewStyle;
+  contentValueTextStyle: TextStyle;
+  contentPostfixTextStyle: TextStyle;
+  footerContainerStyle: ViewStyle;
+  footerTextStyle: TextStyle;
 }
 
 export default StyleSheet.create<Style>({
@@ -23,5 +30,48 @@ export default StyleSheet.create<Style>({
   titleTextStyle: {
     color: "rgba(255,255,255,0.7)",
     fontWeight: "500",
+  },
+  iconContainerStyle: {
+    position: "absolute",
+    top: 0,
+    right: 0,
+    width: 60,
+    height: 60,
+    borderTopLeftRadius: 40,
+    borderTopRightRadius: 20,
+    borderBottomLeftRadius: 40,
+    borderBottomRightRadius: 40,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(255,255,255,0.3)",
+  },
+  iconImageStyle: {
+    width: 25,
+    height: 25,
+  },
+  contentStyle: {
+    marginTop: 32,
+    flexDirection: "row",
+    alignItems: "flex-end",
+  },
+  contentValueTextStyle: {
+    color: "#fff",
+    fontSize: 24,
+    fontWeight: "600",
+  },
+  contentPostfixTextStyle: {
+    fontSize: 18,
+    marginLeft: 8,
+    color: "#fff",
+    fontWeight: "600",
+  },
+  footerContainerStyle: {
+    right: 16,
+    bottom: 16,
+    position: "absolute",
+  },
+  footerTextStyle: {
+    textAlign: "right",
+    color: "rgba(255,255,255,0.9)",
   },
 });
