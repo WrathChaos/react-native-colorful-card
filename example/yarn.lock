@@ -696,10 +696,10 @@
   "resolved" "https://registry.npmjs.org/@freakycoder/react-native-bounceable/-/react-native-bounceable-0.2.4.tgz"
   "version" "0.2.4"
 
-"@freakycoder/react-native-colorful-card@^0.1.0":
-  "integrity" "sha512-z5GkgMy9JayTMNChMR2mSIcypwhYVj/XpezZgc7AGwevhxBj2cY4kC3iBB8FeSYJd4dra+4U/ZsEv/1lPfJUSw=="
-  "resolved" "https://registry.npmjs.org/@freakycoder/react-native-colorful-card/-/react-native-colorful-card-0.1.0.tgz"
-  "version" "0.1.0"
+"@freakycoder/react-native-colorful-card@^0.1.2":
+  "integrity" "sha512-pae/5g2vl441El+gwzdjUJLDMWX0/L4BNNCcKzKdMG/8XjJEW00f/NzEfzkhcWAO/Nh+ReTv7F9ZGl2deQOS7A=="
+  "resolved" "https://registry.npmjs.org/@freakycoder/react-native-colorful-card/-/react-native-colorful-card-0.1.2.tgz"
+  "version" "0.1.2"
 
 "@hapi/address@2.x.x":
   "integrity" "sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ=="
