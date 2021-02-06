@@ -10,12 +10,20 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
-<p align="center">
-  <img alt="React Native Colorful Card"
-        src="assets/Screenshots/react-native-colorful-card.gif" />
-  <img alt="React Native Colorful Card"
-        src="assets/Screenshots/react-native-colorful-card.png" />
-</p>
+
+
+<table>
+  <tr>
+    <td align="center">
+      <img alt="React Native Social Login Screen"
+          src="assets/Screenshots/react-native-colorful-card.gif" />
+    </td>
+    <td align="center">
+      <img alt="React Native Social Login Screen"
+              src="assets/Screenshots/react-native-colorful-card.png" />
+    </td>
+   </tr>
+</table>
 
 # Installation
 
