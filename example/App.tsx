@@ -1,6 +1,6 @@
 import React from "react";
 import { View, StatusBar, SafeAreaView } from "react-native";
-import ColorfulCard from "./lib/ColorfulCard";
+import ColorfulCard from "@freakycoder/react-native-colorful-card";
 
 const App = () => {
   return (

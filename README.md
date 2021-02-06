@@ -102,6 +102,10 @@ should work of the example project.
 
 FreakyCoder, kurayogun@gmail.com
 
+## Credits
+
+Heavily inspired by [WebFrontEndTips](http://webfrontendtips.blogspot.com/2020/01/how-to-design-fitness-app-ui-in-sketch.html)
+
 ## License
 
 React Native Colorful Card is available under the MIT license. See the LICENSE file for more info.

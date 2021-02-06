@@ -691,10 +691,15 @@
     "exec-sh" "^0.3.2"
     "minimist" "^1.2.0"
 
-"@freakycoder/react-native-bounceable@^0.2.4":
+"@freakycoder/react-native-bounceable@^0.2.4", "@freakycoder/react-native-bounceable@>= 0.2.4":
   "integrity" "sha512-Gw9TuO65oCzYYz78RV6OtUjfdbYPdt2RIrDt441oo3JV8++aW9485z9GCqrqxNi1qCO8gC18iNkFLfBMhazZpA=="
   "resolved" "https://registry.npmjs.org/@freakycoder/react-native-bounceable/-/react-native-bounceable-0.2.4.tgz"
   "version" "0.2.4"
+
+"@freakycoder/react-native-colorful-card@^0.1.0":
+  "integrity" "sha512-z5GkgMy9JayTMNChMR2mSIcypwhYVj/XpezZgc7AGwevhxBj2cY4kC3iBB8FeSYJd4dra+4U/ZsEv/1lPfJUSw=="
+  "resolved" "https://registry.npmjs.org/@freakycoder/react-native-colorful-card/-/react-native-colorful-card-0.1.0.tgz"
+  "version" "0.1.0"
 
 "@hapi/address@2.x.x":
   "integrity" "sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ=="
