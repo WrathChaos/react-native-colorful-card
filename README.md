@@ -4,8 +4,8 @@
 
 [![React Native Colorful Card](https://img.shields.io/badge/-Fully%20customizable%20colorful%20card%20component%20for%20React%20Native.-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-colorful-card)
 
-[![npm version](https://img.shields.io/npm/v/react-native-colorful-card.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-colorful-card)
-[![npm](https://img.shields.io/npm/dt/react-native-colorful-card.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-colorful-card)
+[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-colorful-card.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-colorful-card)
+[![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-colorful-card.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-colorful-card)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)

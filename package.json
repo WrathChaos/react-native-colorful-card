@@ -1,5 +1,5 @@
 {
-  "name": "react-native-colorful-card",
+  "name": "@freakycoder/react-native-colorful-card",
   "version": "0.1.0",
   "description": "Fully customizable colorful card component for React Native.",
   "main": "./build/dist/ColorfulCard.js",
