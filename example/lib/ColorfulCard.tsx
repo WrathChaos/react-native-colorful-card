@@ -5,6 +5,7 @@ import {
   Image,
   StyleProp,
   ViewStyle,
+  ImageStyle,
   ImageSourcePropType,
 } from "react-native";
 import RNBounceable from "@freakycoder/react-native-bounceable";
@@ -14,6 +15,9 @@ import RNBounceable from "@freakycoder/react-native-bounceable";
 import styles from "./ColorfulCard.style";
 
 type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
+type CustomImageStyleProp =
+  | StyleProp<ImageStyle>
+  | Array<StyleProp<ImageStyle>>;
 
 interface IColorfulCardProps {
   title: string;
@@ -23,6 +27,7 @@ interface IColorfulCardProps {
   footerValue: string;
   style?: CustomStyleProp;
   iconImageSource?: ImageSourcePropType;
+  iconImageStyle?: CustomImageStyleProp;
   onPress: () => void;
 }
 
@@ -31,7 +36,8 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
   title,
   value,
   valuePostfix,
-  iconImageSource = require("./pulse.png"),
+  iconImageSource,
+  iconImageStyle,
   footerTitle,
   footerValue,
   onPress,
@@ -44,7 +50,10 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
 
   const renderIconContainer = () => (
     <View style={styles.iconContainerStyle}>
-      <Image source={iconImageSource} style={styles.iconImageStyle} />
+      <Image
+        source={iconImageSource}
+        style={[styles.iconImageStyle, iconImageStyle]}
+      />
     </View>
   );
 
