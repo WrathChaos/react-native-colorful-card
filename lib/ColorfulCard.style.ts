@@ -13,8 +13,8 @@ interface Style {
   iconContainerStyle: ViewStyle;
   iconImageStyle: ImageStyle;
   contentStyle: ViewStyle;
-  contentValueTextStyle: TextStyle;
-  contentPostfixTextStyle: TextStyle;
+  valueTextStyle: TextStyle;
+  valuePostfixTextStyle: TextStyle;
   footerContainerStyle: ViewStyle;
   footerTextStyle: TextStyle;
 }
@@ -55,12 +55,12 @@ export default StyleSheet.create<Style>({
     flexDirection: "row",
     alignItems: "flex-end",
   },
-  contentValueTextStyle: {
+  valueTextStyle: {
     color: "#fff",
     fontSize: 28,
     fontWeight: "600",
   },
-  contentPostfixTextStyle: {
+  valuePostfixTextStyle: {
     fontSize: 18,
     marginLeft: 8,
     color: "#fff",

@@ -21,7 +21,7 @@ type CustomImageStyleProp =
   | StyleProp<ImageStyle>
   | Array<StyleProp<ImageStyle>>;
 
-interface IColorfulCardProps {
+export interface IColorfulCardProps {
   title: string;
   value: string;
   valuePostfix?: string;
@@ -32,8 +32,8 @@ interface IColorfulCardProps {
   iconImageStyle?: CustomImageStyleProp;
   titleTextStyle?: CustomTextStyleProp;
   footerTextStyle?: CustomTextStyleProp;
-  contentValueTextStyle?: CustomTextStyleProp;
-  contentPostfixTextStyle?: CustomTextStyleProp;
+  valueTextStyle?: CustomTextStyleProp;
+  valuePostfixTextStyle?: CustomTextStyleProp;
   ImageComponent?: any;
   onPress: () => void;
 }
@@ -49,8 +49,8 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
   footerValue,
   titleTextStyle,
   footerTextStyle,
-  contentValueTextStyle,
-  contentPostfixTextStyle,
+  valueTextStyle,
+  valuePostfixTextStyle,
   ImageComponent = Image,
   onPress,
 }) => {
@@ -71,9 +71,9 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
 
   const renderContent = () => (
     <View style={styles.contentStyle}>
-      <Text style={[styles.contentValueTextStyle, contentValueTextStyle]}>
+      <Text style={[styles.valueTextStyle, valueTextStyle]}>
         {`${value} `}
-        <Text style={[styles.contentPostfixTextStyle, contentPostfixTextStyle]}>
+        <Text style={[styles.valuePostfixTextStyle, valuePostfixTextStyle]}>
           {valuePostfix}
         </Text>
       </Text>
