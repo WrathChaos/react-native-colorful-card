@@ -22,7 +22,7 @@
 Add the dependency:
 
 ```bash
-npm i react-native-colorful-card
+npm i @freakycoder/react-native-colorful-card
 ```
 
 ## Peer Dependencies
@@ -38,7 +38,7 @@ npm i react-native-colorful-card
 ## Import
 
 ```jsx
-import ColorfulCard from "react-native-colorful-card";
+import ColorfulCard from "@freakycoder/react-native-colorful-card";
 ```
 
 ## Fundamental Usage
