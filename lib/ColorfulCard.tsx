@@ -28,6 +28,7 @@ export interface IColorfulCardProps {
   footerTitle: string;
   footerValue: string;
   style?: CustomStyleProp;
+  contentStyle?: CustomStyleProp;
   iconImageSource?: ImageSourcePropType;
   iconImageStyle?: CustomImageStyleProp;
   titleTextStyle?: CustomTextStyleProp;
@@ -42,6 +43,7 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
   style,
   title,
   value,
+  contentStyle,
   valuePostfix,
   iconImageSource,
   iconImageStyle,
@@ -70,7 +72,7 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
   );
 
   const renderContent = () => (
-    <View style={styles.contentStyle}>
+    <View style={[styles.contentStyle, contentStyle]}>
       <Text style={[styles.valueTextStyle, valueTextStyle]}>
         {`${value} `}
         <Text style={[styles.valuePostfixTextStyle, valuePostfixTextStyle]}>
