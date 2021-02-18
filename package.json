@@ -1,6 +1,6 @@
 {
   "name": "react-native-colorful-card",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Fully customizable colorful card component for React Native.",
   "main": "./build/dist/ColorfulCard.js",
   "repository": "git@github.com:WrathChaos/react-native-colorful-card.git",
