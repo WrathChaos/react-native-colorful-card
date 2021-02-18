@@ -4,13 +4,11 @@
 
 [![React Native Colorful Card](https://img.shields.io/badge/-Fully%20customizable%20colorful%20card%20component%20for%20React%20Native.-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-colorful-card)
 
-[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-colorful-card.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-colorful-card)
-[![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-colorful-card.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-colorful-card)
+[![npm version](https://img.shields.io/npm/v/react-native-colorful-card.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-colorful-card)
+[![npm](https://img.shields.io/npm/dt/react-native-colorful-card.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-colorful-card)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
-
-
 
 <table>
   <tr>
@@ -30,7 +28,7 @@
 Add the dependency:
 
 ```bash
-npm i @freakycoder/react-native-colorful-card
+npm i react-native-colorful-card
 ```
 
 ## Peer Dependencies
@@ -38,7 +36,7 @@ npm i @freakycoder/react-native-colorful-card
 <h5><i>IMPORTANT! You need install them</i></h5>
 
 ```js
-"@freakycoder/react-native-bounceable": ">= 0.2.4"
+"react-native-bounceable": ">= 0.2.4"
 ```
 
 # Usage
@@ -46,7 +44,7 @@ npm i @freakycoder/react-native-colorful-card
 ## Import
 
 ```jsx
-import ColorfulCard from "@freakycoder/react-native-colorful-card";
+import ColorfulCard from "react-native-colorful-card";
 ```
 
 ## Fundamental Usage
