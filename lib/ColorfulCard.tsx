@@ -29,6 +29,7 @@ export interface IColorfulCardProps {
   footerValue: string;
   style?: CustomStyleProp;
   contentStyle?: CustomStyleProp;
+  iconContainerStyle?: CustomStyleProp;
   iconImageSource?: ImageSourcePropType;
   iconImageStyle?: CustomImageStyleProp;
   titleTextStyle?: CustomTextStyleProp;
@@ -52,6 +53,7 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
   titleTextStyle,
   footerTextStyle,
   valueTextStyle,
+  iconContainerStyle,
   valuePostfixTextStyle,
   ImageComponent = Image,
   onPress,
@@ -63,7 +65,7 @@ const ColorfulCard: React.FC<IColorfulCardProps> = ({
   );
 
   const renderIconContainer = () => (
-    <View style={styles.iconContainerStyle}>
+    <View style={[styles.iconContainerStyle, iconContainerStyle]}>
       <ImageComponent
         source={iconImageSource}
         style={[styles.iconImageStyle, iconImageStyle]}

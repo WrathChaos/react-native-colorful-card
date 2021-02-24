@@ -98,6 +98,7 @@ should work of the example project.
 | valueTextStyle        | TextStyle  | default | set or override the text style object for the value text               |
 | valuePostfixTextStyle | TextStyle  | default | set or override the text style object for the value postfix text       |
 | ImageComponent        |   Image    | default | set your own component instead of default react-native Image component |
+| iconContainerStyle    | ViewStyle  | default | set or override the style object for the icon container style          |
 
 ## Future Plans
 
